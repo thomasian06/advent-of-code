@@ -34,7 +34,7 @@ function insert_sorted(array: number[], value: number) {
 }
 
 
-fs.readFile(path.join(os.homedir(), "projects/adventofcode/2024/inputs/day_1.txt"), function (err, data) {
+fs.readFile(path.join(os.homedir(), "projects/advent-of-code/.main/2024/inputs/day_1.txt"), function (err, data) {
     if (err) {
         return console.error(err)
     }

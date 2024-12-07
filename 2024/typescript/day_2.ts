@@ -20,7 +20,7 @@ function checkLevels(levelList: string[]): boolean {
 }
 
 
-fs.readFile(path.join(os.homedir(), "projects/adventofcode/2024/inputs/day_2.txt"), function (err, data) {
+fs.readFile(path.join(os.homedir(), "projects/advent-of-code/.main/2024/inputs/day_2.txt"), function (err, data) {
     if (err) {
         return console.error(err)
     }

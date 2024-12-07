@@ -3,7 +3,7 @@ import * as os from 'os';
 import * as path from 'path';
 
 
-fs.readFile(path.join(os.homedir(), "projects/adventofcode/2024/inputs/day_5.txt"), function (err, data) {
+fs.readFile(path.join(os.homedir(), "projects/advent-of-code/.main/2024/inputs/day_5.txt"), function (err, data) {
     if (err) {
         return console.error(err)
     }

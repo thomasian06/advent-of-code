@@ -62,7 +62,7 @@ function simulate(
     return [uniquePositions, true]
 }
 
-fs.readFile(path.join(os.homedir(), "projects/adventofcode/2024/inputs/day_6.txt"), (err, data) => {
+fs.readFile(path.join(os.homedir(), "projects/advent-of-code/.main/2024/inputs/day_6.txt"), (err, data) => {
     if (err) {
         return console.error(err)
     }
