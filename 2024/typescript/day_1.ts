@@ -59,8 +59,7 @@ fs.readFile(path.join(os.homedir(), "projects/advent-of-code/.main/2024/inputs/d
     var similarity = 0
     for (let i = 0; i < left.length; i++) {
         difference += Math.abs(left[i] - right[i])
-        // @ts-expect-error -get will never be undefined because we check in ternary
-        similarity += right_counts.has(left[i]) ? (left[i] * right_counts.get(left[i])) : 0
+        similarity += right_counts.has(left[i]) ? (left[i] * right_counts.get(left[i])!) : 0
     }
     console.log("Difference: ", difference)
     console.log("Similarity: ", similarity)
